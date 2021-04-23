@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: rgb(199, 203, 207);
+}
+
+.head img {
+    width: 100%;
+
+}
+
+.watch {
+    padding: 30px;
+    text-align: center;
+}
+
+.head .btn {
+    width: 40%;
+    height: 7%;
+
+}
+
+
+
+/*.head {
+    background-color: #f5ebf4;
+}*/
+
+.middle {
+    background-color: #efeef1;
+    padding: 50px;
+
+}
+
+li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.casthead {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.cast-row {
+    width: 90%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.cast-row img {
+    width: 25%;
+    height: 30%;
+    border-radius: 10%;
+    margin: 0px 30px 30px 20px;
+}
+
+.one {
+    float: left
+}
+
+.two {
+    float: right;
+    text-align: right
+}
+
+p {
+    line-height: 2;
+}
+
+
+.memebody {
+    background-color: rgb(154, 161, 167);
+}
+
+.carousel-item img {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+}
+
+.about {
+    background-color: rgb(216, 221, 226);
+    padding: 20px;
+}
+
+.about a {
+    color: black
+}
+
+.about a:hover {
+    color: rgb(107, 104, 107);
+    text-decoration: none;
+}
+
+/*Mobile Devices*/
+@media (max-width: 768px) {
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .one {
+        float:none;
+    }
+
+    .two {
+        float: none;
+    }
+    .cast-row{
+        width: 100%;
+    }
+    .cast-row img {
+        width: 42%;
+        height: 35%;
+        border-radius: 10%;
+        margin: 0px auto 20px auto;
+    }
+    
+}
+
+/*Ipad*/
+@media (max-width: 992px) {
+    .carousel-item img {
+        width: 90%;
+        height: 60%;
+        margin: auto;
+    }
+}
