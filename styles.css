@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #efeef1;;
+    background-color: #efeef1;
+    ;
 }
 
 .head img {
@@ -55,10 +56,11 @@ li {
 
 .cast-row img {
     width: 25%;
-    height: 30%;
+    height: 35%;
     border-radius: 10%;
-    margin: 0px 30px 30px 20px;
+    margin:-3px 30px 30px 20px;
 }
+
 
 .one {
     float: left
@@ -97,61 +99,6 @@ p {
     color: rgb(107, 104, 107);
     text-decoration: none;
 }
-/*small*/
-@media (max-width:568px){
-    .head img{
-        height:30%;
-    }
-    .middle li{
-        font-size:15px;
-    }
-    p{
-        font-size:15px;
-    }
-    .head .btn {
-        width: 50%;
-        height: 7%;
-    
-    }
-    .cast-row img {
-        width: 50%;
-        height: 35%;
-        border-radius: 10%;
-        margin: 0px auto 20px auto;
-    }
-}
-/*Mobile Devices*/
-@media (max-width: 768px) {
-    h1{
-        text-align: center;
-    }
-    h5{
-        text-align: center;
-    }
-    h2{
-        text-align: center;
-    }
-    p{
-        text-align: center;
-    }
-    .one {
-        float:none;
-    }
-
-    .two {
-        float: none;
-    }
-    .cast-row{
-        width: 100%;
-    }
-    .cast-row img {
-        width: 40%;
-        height: 35%;
-        border-radius: 10%;
-        margin: 0px auto 20px auto;
-    }
-    
-}
 
 /*Ipad*/
 @media (max-width: 992px) {
@@ -159,5 +106,79 @@ p {
         width: 90%;
         height: 70%;
         margin: auto;
+    }
+}
+
+/*Mobile Devices*/
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .one {
+        float: none;
+    }
+
+    .two {
+        float: none;
+    }
+
+    .cast-row {
+        width: 100%;
+    }
+
+    .cast-row img {
+        width: 40%;
+        height: 35%;
+        border-radius: 10%;
+        margin: 0px auto 20px auto;
+    }
+
+}
+
+
+/*small*/
+@media (max-width:568px) {
+    .head img {
+        height: 30%;
+    }
+
+    .middle li {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .head .btn {
+        width: 50%;
+        height: 7%;
+
+    }
+
+    .cast-row img {
+        width: 50%;
+        height: 30%;
+        border-radius: 10%;
+        margin: 0px auto 20px auto;
+    }
+}
+@media (max-width:420px) {
+    .cast-row img {
+        width: 50%;
+        height: 25%;
     }
 }
