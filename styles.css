@@ -80,7 +80,7 @@ p {
 
 .carousel-item img {
     width: 60%;
-    height: 80%;
+    height: 90%;
     margin: auto;
 }
 
@@ -113,6 +113,12 @@ p {
         height: 7%;
     
     }
+    .cast-row img {
+        width: 50%;
+        height: 35%;
+        border-radius: 10%;
+        margin: 0px auto 20px auto;
+    }
 }
 /*Mobile Devices*/
 @media (max-width: 768px) {
@@ -139,7 +145,7 @@ p {
         width: 100%;
     }
     .cast-row img {
-        width: 42%;
+        width: 40%;
         height: 35%;
         border-radius: 10%;
         margin: 0px auto 20px auto;
