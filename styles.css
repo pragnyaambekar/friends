@@ -75,10 +75,7 @@ li {
 p {
     line-height: 2;
 }
-.monica{
-    text-align: left;
-    margin-top:-50px;
-}
+
 .memebody {
     background-color: rgb(154, 161, 167);
 }
@@ -141,7 +138,7 @@ p {
     .two {
         float: none;
     }
-
+    
     .cast-row {
         width: 100%;
     }
